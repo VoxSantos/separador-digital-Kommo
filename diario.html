@@ -2,35 +2,39 @@
 <html lang="pt-BR">
 <head>
 <meta charset="UTF-8">
-<title>Digital - Diário</title>
-
+<title>Digital - Acompanhamento Diário</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <style>
-html, body {
-  margin: 0;
-  padding: 0;
-  background: #EDA420;
-  overflow: hidden;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-.container {
-  width: 100%;
-  height: 42px; /* 🔑 ALTURA IDEAL PARA GRID 6x1 */
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: #05AAA8;
-  font-size: 14px;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 0.8px;
-}
+  body {
+    margin: 0;
+    padding: 0;
+    background: transparent;
+    overflow: hidden;
+  }
 </style>
 </head>
 
 <body>
-  <div class="container">
-    Digital - Acompanhamento Diário
-  </div>
+<svg width="100%" height="56" viewBox="0 0 100 56" preserveAspectRatio="none"
+     xmlns="http://www.w3.org/2000/svg">
+
+  <!-- FUNDO -->
+  <rect x="0" y="0" width="100%" height="56" fill="#EDA420"/>
+
+  <!-- TEXTO -->
+  <text
+    x="50%"
+    y="50%"
+    dominant-baseline="middle"
+    text-anchor="middle"
+    fill="#05AAA8"
+    font-size="18"
+    font-family="Arial, Helvetica, sans-serif"
+    font-weight="700"
+    letter-spacing="1.2"
+  >
+    DIGITAL - ACOMPANHAMENTO DIÁRIO
+  </text>
+</svg>
 </body>
 </html>
