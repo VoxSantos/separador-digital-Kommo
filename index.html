@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Separadores Digital</title>
+
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+      background: #EDA420;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .wrapper {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .section {
+      flex: 1;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #05AAA8;
+      font-size: 22px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      border-bottom: 2px solid rgba(255,255,255,0.25);
+      text-align: center;
+    }
+
+    .section:last-child {
+      border-bottom: none;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="wrapper">
+    <div class="section">Digital - Acompanhamento Diário</div>
+    <div class="section">Digital - Acompanhamento Leads Ontem</div>
+    <div class="section">Digital - Acompanhamento Semanal</div>
+    <div class="section">Digital - Acumulado do Mês</div>
+    <div class="section">Digital - Mês Passado</div>
+  </div>
+</body>
+</html>
